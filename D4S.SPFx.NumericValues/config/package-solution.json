@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "d-4-s-sp-fx-numeric-values-client-side-solution",
+    "id": "7519ed7c-dc36-4f85-803b-904a62d9da6d",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": false
+  },
+  "paths": {
+    "zippedPackage": "solution/d-4-s-sp-fx-numeric-values.sppkg"
+  }
+}

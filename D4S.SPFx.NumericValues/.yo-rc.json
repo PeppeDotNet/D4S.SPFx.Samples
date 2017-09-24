@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "d-4-s-sp-fx-numeric-values",
+    "libraryId": "7519ed7c-dc36-4f85-803b-904a62d9da6d",
+    "environment": "spo"
+  }
+}
