@@ -11,11 +11,8 @@
       ]
     }
   },
-  "externals": {
-    "sp-client-custom-fields": "node_modules/sp-client-custom-fields/dist/sp-client-custom-fields.bundle.js"
-  },
+  "externals": {},
   "localizedResources": {
-    "SampleWebPartStrings": "lib/webparts/sample/loc/{locale}.js",
-    "sp-client-custom-fields/strings": "node_modules/sp-client-custom-fields/lib/loc/{locale}.js"    
+    "SampleWebPartStrings": "lib/webparts/sample/loc/{locale}.js"
   }
 }

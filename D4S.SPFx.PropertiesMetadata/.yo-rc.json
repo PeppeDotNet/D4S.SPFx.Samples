@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "d-4-s-sp-fx-properties-metadata",
+    "libraryId": "24f3f775-32f7-4aed-b580-4eca3451f58d",
+    "environment": "spo"
+  }
+}

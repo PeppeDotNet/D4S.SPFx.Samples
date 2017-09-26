@@ -1,0 +1,43 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "da03f7f0-43c6-441e-aaaa-285fb4c688d4",
+  "alias": "SampleWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "da03f7f0-43c6-441e-aaaa-285fb4c688d4",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Dev4Side office" },
+    "description": { "default": "Dev4Side office web part" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "name": "Dev4Side S.r.l.",
+      "description": "Dev4Side facilities in the center of Milan",
+      "address": "Via Fabio Filzi 5 - 20124 Milan (Italy)",
+      "image": "",
+      "directions": "https://www.google.it/maps/dir/45.453607,9.2164921/Via+Fabio+Filzi,+5,+20124+Milano+MI/@45.4645876,9.1677658,13z/am=t/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4786c6cf18a9992d:0xa92db90cfafa0fed!2m2!1d9.1987561!2d45.4823142"
+    }
+  },{
+    "groupId": "da03f7f0-43c6-441e-aaaa-285fb4c688d5",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Microsoft office" },
+    "description": { "default": "Microsoft office web part" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "name": "Microsoft",
+      "description": "Microsoft new house in Milan",
+      "address": "Viale Pasubio - 20124 Milan (Italy)",
+      "image": "",
+      "directions": "https://www.google.it/maps/dir/45.453607,9.2164921/Viale+Pasubio,+Milano,+MI/@45.4699383,9.1822057,14z/am=t/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4786c134031a7b9d:0x118bea234f6762f6!2m2!1d9.1840677!2d45.4816591"
+    }
+  }]
+}
