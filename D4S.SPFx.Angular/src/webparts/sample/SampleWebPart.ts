@@ -5,10 +5,10 @@ import {
   PropertyPaneTextField
 } from '@microsoft/sp-webpart-base';
 import { escape } from '@microsoft/sp-lodash-subset';
-
 import styles from './SampleWebPart.module.scss';
 import * as strings from 'SampleWebPartStrings';
 import { ISampleWebPartProps } from './ISampleWebPartProps';
+import * as angular from 'angular'; 
 
 export default class SampleWebPartWebPart extends BaseClientSideWebPart<ISampleWebPartProps> {
 
@@ -18,16 +18,22 @@ export default class SampleWebPartWebPart extends BaseClientSideWebPart<ISampleW
         <div class="${styles.container}">
           <div class="ms-Grid-row ms-bgColor-themeDark ms-fontColor-white ${styles.row}">
             <div class="ms-Grid-col ms-lg10 ms-xl8 ms-xlPush2 ms-lgPush1">
-              <span class="ms-font-xl ms-fontColor-white">Welcome to SharePoint!</span>
-              <p class="ms-font-l ms-fontColor-white">Customize SharePoint experiences using Web Parts.</p>
-              <p class="ms-font-l ms-fontColor-white">${escape(this.properties.description)}</p>
-              <a href="https://aka.ms/spfx" class="${styles.button}">
-                <span class="${styles.label}">Learn more</span>
-              </a>
+              <span class="ms-font-xl ms-fontColor-white">Wrong usage of Angular in a SPFx web part</span>
+              <p class="ms-font-l ms-fontColor-white">Try to click F12 and then open the properties editor ...</p>
             </div>
           </div>
         </div>
       </div>`;
+
+      //wrong!! bootstrap angular only with this.renderedOnce = true;
+      angular.module('helloworld', []);      
+      angular.bootstrap(this.domElement, ['helloworld']);
+
+      //correct usage
+      /* if(this.renderedOnce === false) {
+        angular.module('helloworld', []);      
+        angular.bootstrap(this.domElement, ['helloworld']);
+      } */
   }
 
   protected get dataVersion(): Version {

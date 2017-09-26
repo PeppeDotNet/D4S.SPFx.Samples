@@ -16,8 +16,8 @@
   "preconfiguredEntries": [{
     "groupId": "e6ff0114-535f-48bc-b3a8-e55cfbd59116",
     "group": { "default": "Under Development" },
-    "title": { "default": "Sample" },
-    "description": { "default": "Sample description" },
+    "title": { "default": "Angular wrong usage" },
+    "description": { "default": "Sample web part" },
     "officeFabricIconFontName": "Page",
     "properties": {
       "description": "Sample"
