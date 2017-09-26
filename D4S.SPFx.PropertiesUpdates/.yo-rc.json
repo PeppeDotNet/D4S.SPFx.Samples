@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "d-4-s-sp-fx-properties-updates",
+    "libraryId": "a3990079-c12b-4101-9c0c-79c79885b238",
+    "environment": "spo"
+  }
+}
