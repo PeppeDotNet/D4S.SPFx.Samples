@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "bundles": {
+    "sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sample/SampleWebPart.js",
+          "manifest": "./src/webparts/sample/SampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  /* 
+  Tool for checking if the library you want to add is a module or not:
+     https://rencore.com/sharepoint-framework/script-check/ 
+  */
+  "externals": {
+    /* "angular": {
+      "path": "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js",
+      "globalName": "angular"
+    } */
+  },
+  "localizedResources": {
+    "SampleWebPartStrings": "lib/webparts/sample/loc/{locale}.js"
+  }
+}
