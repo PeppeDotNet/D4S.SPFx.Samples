@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "d-4-s-sp-fx-reference-images",
+    "libraryId": "d54bb062-2a81-4482-b00c-accab5e9adfb",
+    "environment": "spo"
+  }
+}
