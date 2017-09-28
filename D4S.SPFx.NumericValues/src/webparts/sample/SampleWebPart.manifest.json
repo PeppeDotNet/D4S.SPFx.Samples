@@ -16,8 +16,8 @@
   "preconfiguredEntries": [{
     "groupId": "88e6dad0-ea19-4219-8924-e7f4c37b6add",
     "group": { "default": "Under Development" },
-    "title": { "default": "Sample" },
-    "description": { "default": "Sample description" },
+    "title": { "default": "Numeric values" },
+    "description": { "default": "Numeric values web part" },
     "officeFabricIconFontName": "Page",
     "properties": {
       "age1": 10,
